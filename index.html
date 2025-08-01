@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Super Fun Bubble Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main">
+    <div class="outer-box">
+      <div class="navbar">
+        <div class="hits mr-2">
+          <h3>Hit Number</h3>
+          <p class="value-box hitsvalue">0</p>
+        </div>
+        <div class="time mr-2">
+          <h3>Time</h3>
+          <p class="value-box timer">30</p>
+        </div>
+        <div class="score mr-2">
+          <h3>Score</h3>
+          <p class="value-box scoreValue">0</p>
+        </div>
+        <div class="lives mr-2">
+          <h3>Lives</h3>
+          <p class="value-box livesValue">3</p>
+        </div>
+        <div class="level mr-2">
+          <h3>Level</h3>
+          <p class="value-box levelValue">1</p>
+        </div>
+        <button id="pauseBtn">Pause</button>
+      </div>
+
+      <div class="progress-bar">
+        <div class="progress-timer"></div>
+      </div>
+
+      <div class="content">
+        <div class="Starting">
+          <button class="starting-text" onclick="startGame()">Start</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
